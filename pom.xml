@@ -6,6 +6,7 @@
 	<version>0.01-SNAPSHOT</version>
 	<name>spring-samples</name>
 	<description>spring-samples</description>
+	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework.version>4.3.3.RELEASE</org.springframework.version>
