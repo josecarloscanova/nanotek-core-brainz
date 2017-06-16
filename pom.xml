@@ -74,13 +74,13 @@
 			<version>1.0</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.microsoft</groupId>
 			<artifactId>sql-jdbc</artifactId>
 			<version>4.0</version>
 			<systemPath>${basedir}/lib/sqljdbc4.jar</systemPath>
 			<scope>system</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
