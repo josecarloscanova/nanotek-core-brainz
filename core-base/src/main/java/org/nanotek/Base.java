@@ -1,8 +1,11 @@
 package org.nanotek;
 
-import java.util.Optional;
 import java.io.Serializable;
+import java.util.Optional;
+import java.util.Set;
 import java.util.function.Supplier;
+
+import org.nanotek.beans.ArtistCredit;
 
 public interface Base<K extends Serializable> extends Identifiable <K>  {
 
@@ -21,5 +24,11 @@ public interface Base<K extends Serializable> extends Identifiable <K>  {
 	default <T extends Base<?>> T newType(Supplier<T> baseSupplier)
 	{ 
 		return baseSupplier.get();
+	}
+	
+	public static void main(String args[])
+	{   ArtistCredit ac = new ArtistCredit();
+		System.out.println(ac.getArtistCreditNames());
+		System.out.println(ac.getArtistCreditNames());
 	}
 }

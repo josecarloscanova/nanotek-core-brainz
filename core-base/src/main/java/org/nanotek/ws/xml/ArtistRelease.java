@@ -23,7 +23,6 @@ public class ArtistRelease implements WsBase<Long>{
 
 	public ArtistRelease()
 	{ 
-		
 	}
 	
 	
