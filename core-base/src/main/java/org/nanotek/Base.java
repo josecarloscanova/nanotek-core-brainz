@@ -2,7 +2,6 @@ package org.nanotek;
 
 import java.io.Serializable;
 import java.util.Optional;
-import java.util.Set;
 import java.util.function.Supplier;
 
 import org.nanotek.beans.ArtistCredit;
